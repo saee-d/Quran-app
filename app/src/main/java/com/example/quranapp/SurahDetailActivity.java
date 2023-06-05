@@ -1,5 +1,10 @@
 package com.example.quranapp;
 
+import android.content.Intent;
+import android.os.Bundle;
+import androidx.appcompat.app.AppCompatActivity;
+import android.widget.TextView;
+
 public class SurahDetailActivity extends AppCompatActivity {
 
     private TextView titleTextView;
@@ -8,7 +13,7 @@ public class SurahDetailActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_surah_detail);
+        setContentView(R.layout.li);
 
         titleTextView = findViewById(R.id.title_text_view);
         contentTextView = findViewById(R.id.content_text_view);
@@ -26,4 +31,3 @@ public class SurahDetailActivity extends AppCompatActivity {
         }
     }
 }
-
